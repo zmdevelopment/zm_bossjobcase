@@ -33,9 +33,4 @@ shared_scripts {
     'config.lua'
 }
 
---dependencies {
---    'qb-core',
---    'PolyZone'
---}
-
 lua54 'yes'
