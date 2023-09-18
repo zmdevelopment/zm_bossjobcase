@@ -30,7 +30,6 @@ files {
 }
 
 shared_scripts {
-    'locales/*.lua',
     'config.lua'
 }
 
