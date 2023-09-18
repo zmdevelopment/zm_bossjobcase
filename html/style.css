@@ -1,0 +1,99 @@
+.kasa_ekrani{
+    position: absolute;
+    left: 700px;
+    top: 350px;
+}
+
+.kasa_parasi{
+  position: absolute;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 5vh;
+  left: 20vh;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  /* identical to box height */
+
+
+  color: #FFFFFF; 
+}  
+
+.ustundeki_parasi{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: 8vh;
+    left: 20vh;
+  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height */
+  
+  
+    color: #FFFFFF;
+}
+
+.para_ekleme_alani{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: 13vh;
+    left: 14vh;
+  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height */
+  
+  
+    color: #FFFFFF;
+}
+
+.input_kasapara1{
+    position: absolute;
+    width: 200px;
+    height: 50.9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 200px;
+    top: 50.9px;
+    z-index: 1;
+}
+
+.btn_ekle{
+    position: absolute;
+    top: 20vh;
+    left: 24vh;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn_ekle:hover {
+  transform: scale(1.1);
+}
+
+.arkaplan_img_kasa{
+    position: relative;
+    top: 1vh;
+    transition: 0.7s;
+} 
+
+.arkaplan_img_kasa:hover {
+  transform: scale(1.005);
+}
